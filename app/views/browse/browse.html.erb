@@ -1,0 +1,10 @@
+<ul id="slides">
+  <% @users.each do |user| %> 
+    <li class="slide" data-id="<%= user.id %>">
+      <%= user.first_name %>
+    </li>
+  <% end %>
+</ul>
+
+<button class="btn btn-danger " id="decline"><i class="fa fa-check"></i> decline</button>
+<button class="btn btn-primary" id="approve"><i class="fa fa-heart"></i> approve</button>
