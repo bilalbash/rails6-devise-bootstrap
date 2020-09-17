@@ -10,16 +10,3 @@ environment.plugins.append('Provide',
 )
 
 module.exports = environment
-
-// console.log("leaded")
-// alert("dsa")
-// const webpack = require('webpack')
-// environment.plugins.prepend('Provide',
-//   new webpack.ProvidePlugin({
-//     $: 'jquery/src/jquery',
-//     jQuery: 'jquery/src/jquery',
-//     Popper: ['popper.js', 'default']
-//   })
-// )
-
-// export default environment
