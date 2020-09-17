@@ -2,13 +2,15 @@
 
 #### Features
 This app has following features:
-- css setup via webpack
-- js setup via webpack
+
 - images setup via webpack
 - bootstrap css setup via webpack
 - bootstrap js setup via webpack
 - turbolinks working properly
+- added extra css, js model wise
+- font awesome is working
 - jquery, popper and bootstrap configured properly via webpack
+- devise properly integrated login, sign up, logout etc.
 
 #### System dependencies
   - Ruby version -> 2.6.3
@@ -32,6 +34,7 @@ $ rails db:create
 <small>Run following commands to create database:</small>
 ```
 $ rails db:migrate
+$ rails db:seed
 ```
 
 #### How to run the test suite
